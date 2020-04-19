@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="sectionSC.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,200;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <title>de Guzman S13</title>
+
+  </head>
+
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#">noFace</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="news.html">News</a>
+          <a class="nav-item nav-link" href="about.html">About Us</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container-fluid">
+        <h1>Lesson #03: Majority</h1>
+        <p>
+          If a candidate receives a majority of first-placevotes, that candidate 
+          should win the election. 
+        </p>
+      </div>  
+    </div>
+
+    <!-- Content -->
+    <div class="container-fluid content phone text-center">
+
+      <h3>Majority Table</h3>
+      <p>
+        Take note that it might seem the same as Plurality
+        but you should take note of the word majority. There will only be a winner only
+        if the candidates votes is greater than 50% of the total votes.
+      </p>
+
+        <table class="table table-striped table-dark table-sm table-bordered">
+          <caption>Figure 3.1 (Survey Results)</caption>
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">12</th>
+              <th scope="col">23</th>
+              <th scope="col">15</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>C++</td>
+              <td>Python</td>
+              <td>C</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Js</td>
+              <td>Java</td>
+              <td>C++</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Java</td>
+              <td>Js</td>
+              <td>Python</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Python</td>
+              <td>C++</td>
+              <td>Java</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>C</td>
+              <td>C</td>
+              <td>Js</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p class="tabletext">
+          After collecting the data, we need to evaluate the results. In this case
+          through Majority. Let's calculate the points.
+        </p>
+
+        <div class="list-group text-left">
+          <a href="#" class="list-group-item list-group-item-action list-group-item-dark">C++ = 12</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light">Python = 23</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-dark">C = 15</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light">Javascript = 0</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-dark">Java = 0</a>
+        </div>
+        
+        <p>
+          As you can see again, only C++, Python, and C were given points since
+          they were the only candidates to have first ranked votes, 
+          while the remaining two, Javascript and Java are awarded no points since they do not have any first place votes.
+        </p>
+
+        <p>
+          In Plurality Python with 23 votes wins, but in Majority the winner should be greater than n/2. In this
+          case 50/2 = 25. 23 is not greater than 25, hence there is no winner.
+        </p>
+
+        <p>
+          With the data above it can be concluded that there is no winner.
+        </p>
+
+    </div>  
+
+
+    <!-- Content-End -->
+    <div class="container-fluid content-news text-center">
+      <h1>End of Section</h1>
+      <p>
+        You've finished this section! Head back by pressing the button below.
+      </p>
+      <div class="btn btn-secondary"><a href="SCLessons.html">Go back to Lessons</a></div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid footer text-center">
+      <p>de Guzman 2020</p>
+    </div>
+
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

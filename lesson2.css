@@ -1,0 +1,208 @@
+html {
+    width: 100%;
+}
+
+body {
+    background: url('source/6.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    top: 0;
+    color: white;
+    font-size: 3vmin;
+}
+
+
+
+/* NavBar CSS */
+.navbar-brand {
+    font-weight: bold;
+    color: white !important;
+}
+
+.navbar a {
+    color: white(0, 0, 0) !important;
+}
+
+.navbar-nav a{
+    font-weight: lighter;
+}
+
+/* Header CSS */
+.jumbotron {
+    padding-bottom: 4em;
+    padding-top: 2em;
+    padding-left: 1em;
+    margin: 0;
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    font-size: 5.9vw;    
+    font-weight: bold;
+    color: white;
+    font-family: 'Raleway';
+}
+
+.jumbotron p {
+    font-size: 3.3vmin;
+    color: white;
+    font-family: 'Roboto';
+}
+
+.jumbotron a {
+    color: white;
+    font-size: 3vmin;
+    font-weight: lighter;
+}
+
+.jumbotron a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/* Content CSS */
+
+.content {
+    background-color:#00000059;
+    padding-bottom: 3em;
+    padding-top: 1em;
+}
+
+.content .row {
+    padding-top: 3vh;
+}
+
+.content a {
+    font-size: 3vmin;
+    font-weight: bold;
+}
+
+.content h5 {
+    font-size: 1.9vmax;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.card-title {
+    margin-bottom: 0.2em;
+}
+
+.content p {
+    font-size: 2.5vmin;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.808);
+    margin-bottom: .3em;
+}
+
+.content .card-body {
+    padding: .75rem;
+}
+
+.content .game-theory-card {
+    text-align: center;
+}
+
+.content .bg-secondary {
+    background-color: #1a1a1a !important;
+}
+
+.phone .card-img-top {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+}
+
+/* Content News */
+.content-news {
+    background: url('source/22.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(48, 33, 33);
+    font-family: 'Raleway';
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.content-news h1 {
+    font-weight: bold;
+    font-size: 8vw; 
+}
+
+.content-news p {
+    font-family: 'Roboto';
+    font-size: 4.5vmin;
+    font-weight: 400;
+}
+
+.content-news a {
+    color: white;
+    font-weight: 400;
+}
+
+/* Footer */
+.footer {
+    width: 100vw;
+    background-color: #00000040;
+}
+
+.footer p {
+    margin-bottom: 0;
+    
+}
+
+
+/* Media Queries */
+
+/* Extra Large devices (landscape tablets, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+.jumbotron {
+    height: 93vh;
+    padding-bottom: 0;
+    padding-top: 5.5em;
+}
+
+.content .row{
+    padding-top: 3vh;
+}
+
+.content h5 {
+    font-size: 2vmax;
+}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .content h5 {
+        font-size: 3vmax;
+    }
+
+    .content .card-body {
+        padding: 2.5rem;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .content h5 {
+        font-size: 3vmax;
+    }
+
+    .content {
+        padding: 3rem 5rem;
+    }
+
+    .phone .col-6 {
+        display: none;
+    }
+
+    .content-news {
+        padding-left: 20vw;
+        padding-right: 20vw;
+        padding-top: 4em;
+        padding-bottom: 4em;
+    }
+}

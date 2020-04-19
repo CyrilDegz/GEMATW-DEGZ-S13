@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="sectionSC.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,200;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <title>de Guzman S13</title>
+
+  </head>
+
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#">noFace</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="news.html">News</a>
+          <a class="nav-item nav-link" href="about.html">About Us</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container-fluid">
+        <h1>Lesson #03: Nash Equilibrium</h1>
+        <p>
+          This section will give you a brief introduction to Nash Equilibrium and will head on to discuss a concrete example.
+        </p>
+      </div>  
+    </div>
+
+    <!-- Content -->
+    <div class="container-fluid content phone text-center">
+
+      <h3 class = "midh3">Nash Equilibrium</h3>
+      <p class="text-left">
+        A Nash equilibrium is a strategy for each 
+        player such that every players’ action is the 
+        best response to the other players’ actions.
+      </p>
+
+        <h3 class = "midh3">The Problem: Hawke and Rain</h3>
+
+        <p class="tabletext text-left">
+          Hawke and Rain were childhood friends, they have been through tough and happy times together. 
+          They have many shared encounters that enriched what they have right now. As they continue to move on towards 
+          their lives they have realized that they like each other but are afraid to ask. Growing up, they 
+          belonged in an environment where there was stigma against same-sex relationships that's why 
+          they thought that what they had would be broken if one confessed, since they would just get 
+          rejected (they don't know they like each other).
+        </p>
+
+        <p class="tabletext text-left">
+          During the mundane moments they had, they began to take note every small thing that remind themselves 
+          how they fell in love with each other. While being ignorant to their feelings, they tread on their lives 
+          yet Rain's heart began to ache even more so. So much that time would eventually break him apart if he did not 
+          shoot his shot against this situation.  
+        </p>
+
+        <p class="tabletext text-left">
+          Hawke surrendered to the reality that what he wanted was selfish. And that he would love and respect whoever Rain gives 
+          his whole life to. Hawke hoped despite this. He loved with a love that was selfless; a love that was pure.
+        </p>
+        
+        <h3 class = "midh3">Solving The Problem</h3>
+
+        <table class="table table-striped table-dark table-sm">
+          <caption>Figure 2.1.1 (Normal Form of Hawke and Rain)</caption>
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col"></th>
+              <th scope="col" colspan="2">Player 2: Rain</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Ask</td>
+              <td>Wait</td>
+            </tr>
+            <tr>
+              <th scope="row">Player 1:</th>
+              <td>Ask</td>
+              <td>9, 7</td>
+              <td>7, 5</td>
+            </tr>
+            <tr>
+              <th scope="row">Hawke</th>
+              <td>Wait</td>
+              <td>10, 10</td>
+              <td>4, 4</td>
+            </tr> 
+          </tbody>
+        </table> 
+
+        <p class="tabletext text-left">
+          Take note that the payoff values represent their happiness levels.
+        </p>
+
+        <p class="tabletext text-left">
+          We can say that Rain is a guy who is full of pride (in a good way) and would like to take the lead in 
+          asking Hawke out. So waiting for him doesn't give a good pay-off compared to asking Hawke out.
+        </p>
+
+        <p class="tabletext text-left">
+          Hawke on the other hand, doesn't want to risk what they have right now but he still waits patiently. That's 
+          why waiting for him has a higher pay-off.
+        </p>
+
+        <p class="tabletext text-left">
+          this method determines the highest possible outcome in response to the other player’s action. The best 
+          responses for Player 1 will be in purple, while Player 2’s will be in orange.
+        </p>
+        
+        <h3 class = "midh3">Hawke's Best Choices</h3>
+
+        <table class="table table-striped table-dark table-sm">
+          <caption>Figure 2.1.2 (Normal Form of Hawke's Best Response)</caption>
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col"></th>
+              <th scope="col" colspan="2">Player 2: Rain</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Ask</td>
+              <td>Wait</td>
+            </tr>
+            <tr>
+              <th scope="row">Player 1:</th>
+              <td>Ask</td>
+              <td></td>
+              <td><b>7</b></td>
+            </tr>
+            <tr>
+              <th scope="row">Hawke</th>
+              <td>Wait</td>
+              <td><b>10</b></td>
+              <td></td>
+            </tr> 
+          </tbody>
+        </table> 
+        <a href="#" class="list-group-item list-group-item-action list-group-item-danger">
+          Interpretation on first choice column: if Rain decided to ask out, Hawke would be the happiest if he waited, instead of 
+          them both asking each other out. To Hawke, that would seem like forcing Rain to like him.
+        </a>
+
+        <a href="#" class="list-group-item list-group-item-action list-group-item-info">
+          Interpretation on second choice column: if Rain decided to wait, Hawke would be the happiest if he decided to ask Rain out 
+          compared to both of them waiting. 
+        </a>
+
+        <h3 class = "midh3">Rain's Best Choices</h3>
+
+        <table class="table table-striped table-dark table-sm">
+          <caption>Figure 2.1.3 (Normal Form of Rain's Best Response)</caption>
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col"></th>
+              <th scope="col" colspan="2">Player 2: Rain</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Ask</td>
+              <td>Wait</td>
+            </tr>
+            <tr>
+              <th scope="row">Player 1:</th>
+              <td>Ask</td>
+              <td><b>7</b></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">Hawke</th>
+              <td>Wait</td>
+              <td><b>10</b></td>
+              <td></td>
+            </tr> 
+          </tbody>
+        </table> 
+        <a href="#" class="list-group-item list-group-item-action list-group-item-danger">
+          Interpretation on first choice row: if Hawke decided to ask out, Rain would be the happiest if he asked out too, instead of 
+          them both waiting for each other.
+        </a>
+
+        <a href="#" class="list-group-item list-group-item-action list-group-item-info">
+          Interpretation on second choice row: if Hawke decided to wait, Rain would be the happiest if he decided to ask Hawke out 
+          compared to both of them waiting. 
+        </a>
+        
+        <h3 class = "midh3">Combination of Best Choices</h3>
+
+        <table class="table table-striped table-dark table-sm">
+          <caption>Figure 2.1.3 (Normal Form of Combination's Best Choices)</caption>
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col"></th>
+              <th scope="col" colspan="2">Player 2: Rain</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td>Ask</td>
+              <td>Wait</td>
+            </tr>
+            <tr>
+              <th scope="row">Player 1:</th>
+              <td>Ask</td>
+              <td><b>7</b></td>
+              <td><b>7</b></td>
+            </tr>
+            <tr>
+              <th scope="row">Hawke</th>
+              <td>Wait</td>
+              <td><b>10, 10</b></td>
+              <td></td>
+            </tr> 
+          </tbody>
+        </table> 
+
+        <a href="#" class="list-group-item list-group-item-action list-group-item-danger">
+          Interpretation: The Nash Equilibrium in this problem is the third quadrant where Rain asks out Hawke who chooses to wait.
+        </a>
+
+    </div>  
+
+
+    <!-- Content-End -->
+    <div class="container-fluid content-news text-center">
+      <h1>Next Lesson</h1>
+      <p>
+        You've made it this far! Head on to the next lesson by pressing the button below.
+      </p>
+      <div class="btn btn-secondary"><a href="GTLessons.html">Go back to Lessons</a></div>
+      <div class="btn btn-secondary"><a href="GT5.html">Next Lesson</a></div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid footer text-center">
+      <p>de Guzman 2020</p>
+    </div>
+
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
